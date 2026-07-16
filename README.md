@@ -36,8 +36,9 @@ pip install -r requirements.txt
 
 Aliases set up on the Raspberry Pi
 ```bash
-prep
+connections
 gui
+start
 ```
 
 If these aliases are unavailable in a non-interactive shell, run the script directly:
@@ -49,8 +50,7 @@ If these aliases are unavailable in a non-interactive shell, run the script dire
 
 The `testing/` folder contains helper/testing scripts.
 ```bash
-python3 testing/sensors.py
-python3 testing/test_x11.py
+python3 Connections.py
 ```
 
 ### 4. Raspberry Pi Quick Access
